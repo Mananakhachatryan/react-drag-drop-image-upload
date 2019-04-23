@@ -1,0 +1,14 @@
+.split-cols {
+  width: calc(50% - 10px);
+  float: left;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  margin: 0 5px;
+  &:first-child {
+    border-right: none;
+  }
+}
+
+.drag-image {
+  max-width: 100%;
+}
